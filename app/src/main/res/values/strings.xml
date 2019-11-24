@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="cat_info">Этого котика зовут Чарльз и он очень любит носить кофе уставшим разработчикам, особенно сильно его услуги востребованны среди любителей View Animation. Чарльза не остановит ничто, даже гора вдруг появившаяся на его пути не станет преградой перед выполнением своей работы.</string>
+    <string name="cat_transition" translatable="false">cat_transition</string>
 </resources>

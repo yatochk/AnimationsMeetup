@@ -15,4 +15,10 @@
         android:background="@drawable/ic_kitty"
         tools:text="Button" />
 
+    <ImageView
+        android:id="@+id/mountain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_mountain" />
+
 </androidx.constraintlayout.motion.widget.MotionLayout>

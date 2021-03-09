@@ -14,20 +14,20 @@
         <activity android:name=".ViewAnimationActivity"></activity>
         <activity android:name=".PropertyAnimatorActivity"></activity>
         <activity android:name=".TransitionAnimatorActivity"></activity>
-        <activity android:name=".MotionActivity">
+        <activity android:name=".MotionActivity"></activity>
+        <activity
+            android:name=".PreviewCatActivity"
+            android:theme="@style/BaseActivity"></activity>
+        <activity
+            android:name=".CatInfoActivity"
+            android:theme="@style/CatActivity" />
+        <activity android:name=".CustomViewAnimationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".PreviewCatActivity"
-            android:theme="@style/BaseActivity">
-        </activity>
-        <activity
-            android:name=".CatInfoActivity"
-            android:theme="@style/CatActivity" />
     </application>
 
 </manifest>
